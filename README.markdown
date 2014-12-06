@@ -39,6 +39,16 @@ of modules from cpan. I'd recommend using [cpanm][], like so:
         MooseX::FollowPBP                       \
         MooseX::Method::Signatures
 
+Installation notes for ubuntu
+You might need to install gd:
+
+    sudo apt-get -y install libgd2-xpm-dev build-essential
+
+... and IO:All
+
+    cpanm -S -v IO::All
+
+
 Once those are installed, clone this repository, `cd` into it and run the
 command:
 
