@@ -38,6 +38,8 @@ of modules from cpan. I'd recommend using [cpanm][], like so:
         Moose                                   \
         MooseX::FollowPBP                       \
         MooseX::Method::Signatures
+        
+(Download the cpanm script to your server and run it as perl cpanm)
 
 Installation notes for ubuntu
 You might need to install gd:
@@ -48,6 +50,8 @@ You might need to install gd:
 
     cpanm -S -v IO::All
 
+Install plack, follow these instructions:
+    http://advent.plackperl.org/2009/12/day-1-getting-plack.html
 
 Once those are installed, clone this repository, `cd` into it and run the
 command:
